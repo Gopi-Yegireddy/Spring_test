@@ -1,0 +1,20 @@
+package Ch_22.Spring;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+      
+    	ApplicationContext contxt=new ClassPathXmlApplicationContext("configx.xml");
+    	Student1 stu1=contxt.getBean("class1",Student1.class);
+    	System.out.println(stu1);
+    	
+    }
+}
