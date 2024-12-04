@@ -1,0 +1,38 @@
+package Ch_22.Spring;
+
+public class Student1 {
+private String name;
+private int id;
+private String sec;
+@Override
+public String toString() {
+	return "Student1 [name=" + name + ", id=" + id + ", sec=" + sec + ", marks=" + marks + "]";
+}
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public int getId() {
+	return id;
+}
+public void setId(int id) {
+	this.id = id;
+}
+public String getSec() {
+	return sec;
+}
+public void setSec(String sec) {
+	this.sec = sec;
+}
+public int getMarks() {
+	return marks;
+}
+public void setMarks(int marks) {
+	this.marks = marks;
+}
+private int marks;
+	
+
+}
